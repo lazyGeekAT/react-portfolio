@@ -48,7 +48,7 @@ const Header = () => {
             onClick={() => navigate('/')}
             className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent hover:from-blue-300 hover:to-purple-500 transition-all duration-200"
           >
-            Arindam Tripathi
+            DevCrewX
           </button>
           
           <nav className="hidden md:flex space-x-8">
