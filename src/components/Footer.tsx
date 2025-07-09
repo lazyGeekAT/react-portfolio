@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-gray-400 flex items-center gap-2">
-              Made with <Heart className="text-red-500" size={16} /> and <Code className="text-blue-400" size={16} /> by DevCrewX
+              Made with <Heart className="text-red-500" size={16} /> and <Code className="text-blue-400" size={16} /> by Arindam Tripathi
             </p>
           </div>
           
