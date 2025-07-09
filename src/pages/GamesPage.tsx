@@ -12,7 +12,7 @@ const GamesPage = () => {
       image: 'https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['JavaScript', 'HTML5 Canvas', 'CSS3', 'AI Algorithm'],
       link: 'https://chess-game.example.com',
-      github: 'https://github.com/arindam/chess-master',
+      github: 'https://github.com/ArindamTripathi619/chess-master',
       difficulty: 'Expert',
       players: '1-2 Players',
       rating: 4.8,
@@ -26,7 +26,7 @@ const GamesPage = () => {
       image: 'https://images.pexels.com/photos/10002923/pexels-photo-10002923.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
       link: 'https://checkers-game.example.com',
-      github: 'https://github.com/arindam/checkers-champion',
+      github: 'https://github.com/ArindamTripathi619/checkers-champion',
       difficulty: 'Intermediate',
       players: '1-2 Players',
       rating: 4.6,
@@ -40,7 +40,7 @@ const GamesPage = () => {
       image: 'https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['JavaScript', 'HTML5 Canvas', 'Local Storage', 'Web Audio API'],
       link: 'https://snake-game.example.com',
-      github: 'https://github.com/arindam/snake-classic',
+      github: 'https://github.com/ArindamTripathi619/snake-classic',
       difficulty: 'Easy',
       players: '1 Player',
       rating: 4.4,
@@ -54,7 +54,7 @@ const GamesPage = () => {
       image: 'https://images.pexels.com/photos/1108701/pexels-photo-1108701.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['JavaScript', 'HTML5 Canvas', 'Web Audio API', 'CSS3'],
       link: 'https://flappy-bird.example.com',
-      github: 'https://github.com/arindam/flappy-bird-reborn',
+      github: 'https://github.com/ArindamTripathi619/flappy-bird-reborn',
       difficulty: 'Hard',
       players: '1 Player',
       rating: 4.2,
@@ -68,7 +68,7 @@ const GamesPage = () => {
       image: 'https://images.pexels.com/photos/8111357/pexels-photo-8111357.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['React', 'TypeScript', 'CSS3', 'Minimax Algorithm'],
       link: 'https://tictactoe-pro.example.com',
-      github: 'https://github.com/arindam/tictactoe-pro',
+      github: 'https://github.com/ArindamTripathi619/tictactoe-pro',
       difficulty: 'Easy',
       players: '1-2 Players',
       rating: 4.3,
@@ -82,7 +82,7 @@ const GamesPage = () => {
       image: 'https://images.pexels.com/photos/8111264/pexels-photo-8111264.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['JavaScript', 'CSS3', 'HTML5', 'Local Storage'],
       link: 'https://memory-game.example.com',
-      github: 'https://github.com/arindam/memory-card-game',
+      github: 'https://github.com/ArindamTripathi619/memory-card-game',
       difficulty: 'Intermediate',
       players: '1 Player',
       rating: 4.5,
@@ -418,7 +418,7 @@ const GamesPage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://github.com/arindam/games"
+                href="https://github.com/ArindamTripathi619/games"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-600 text-white px-8 py-3 rounded-full font-semibold hover:from-purple-600 hover:to-pink-700 transition-all duration-300 transform hover:scale-105"

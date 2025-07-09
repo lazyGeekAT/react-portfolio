@@ -8,7 +8,7 @@ const Projects = () => {
       description: 'A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and payment integration.',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['React', 'Node.js', 'MongoDB', 'Express.js', 'Stripe'],
-      github: 'https://github.com/arindam/ecommerce-app',
+      github: 'https://github.com/ArindamTripathi619/ecommerce-app',
       demo: 'https://ecommerce-demo.vercel.app',
       featured: true
     },
@@ -17,7 +17,7 @@ const Projects = () => {
       description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
       image: 'https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['React', 'Firebase', 'Tailwind CSS', 'Socket.io'],
-      github: 'https://github.com/arindam/task-manager',
+      github: 'https://github.com/ArindamTripathi619/task-manager',
       demo: 'https://taskmanager-demo.vercel.app',
       featured: true
     },
@@ -26,7 +26,7 @@ const Projects = () => {
       description: 'A responsive weather dashboard with location-based forecasts, interactive charts, and weather alerts using OpenWeatherMap API.',
       image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['React', 'Chart.js', 'OpenWeatherMap API', 'Tailwind CSS'],
-      github: 'https://github.com/arindam/weather-dashboard',
+      github: 'https://github.com/ArindamTripathi619/weather-dashboard',
       demo: 'https://weather-dashboard-demo.vercel.app',
       featured: false
     },
@@ -35,7 +35,7 @@ const Projects = () => {
       description: 'A social media platform with user profiles, posts, comments, likes, and real-time messaging functionality.',
       image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['React', 'Express.js', 'PostgreSQL', 'Socket.io'],
-      github: 'https://github.com/arindam/social-media-app',
+      github: 'https://github.com/ArindamTripathi619/social-media-app',
       demo: 'https://social-media-demo.vercel.app',
       featured: false
     },
@@ -44,7 +44,7 @@ const Projects = () => {
       description: 'A modern, responsive portfolio website showcasing my projects and skills with smooth animations and interactive elements.',
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['React', 'Tailwind CSS', 'Framer Motion', 'Vercel'],
-      github: 'https://github.com/arindam/portfolio',
+      github: 'https://github.com/ArindamTripathi619/portfolio',
       demo: 'https://arindam-portfolio.vercel.app',
       featured: false
     },
@@ -53,7 +53,7 @@ const Projects = () => {
       description: 'A comprehensive fitness tracking application with workout logging, progress tracking, and goal setting features.',
       image: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['Flutter', 'Firebase', 'Dart', 'Chart.js'],
-      github: 'https://github.com/arindam/fitness-tracker',
+      github: 'https://github.com/ArindamTripathi619/fitness-tracker',
       demo: 'https://fitness-tracker-demo.vercel.app',
       featured: false
     }

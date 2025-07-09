@@ -56,7 +56,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Email</h4>
-                    <p className="text-gray-400">arindam.tripathi@example.com</p>
+                    <p className="text-gray-400">devcrewx@gamil.com</p>
                   </div>
                 </div>
                 
@@ -66,7 +66,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Phone</h4>
-                    <p className="text-gray-400">+91 XXXXX XXXXX</p>
+                    <p className="text-gray-400">+918250664257</p>
                   </div>
                 </div>
                 
@@ -76,7 +76,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Location</h4>
-                    <p className="text-gray-400">Bhubaneswar, India</p>
+                    <p className="text-gray-400">Kolkata, India</p>
                   </div>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Contact = () => {
                 <h4 className="text-white font-semibold mb-4">Follow Me</h4>
                 <div className="flex gap-4">
                   <a
-                    href="https://github.com/arindam"
+                    href="https://github.com/ArindamTripathi619"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors duration-200"
@@ -93,7 +93,7 @@ const Contact = () => {
                     <Github className="text-white" size={20} />
                   </a>
                   <a
-                    href="https://linkedin.com/in/arindam"
+                    href="https://www.linkedin.com/in/arindam-tripathi-962551349/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors duration-200"

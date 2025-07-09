@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
             <img
-              src="https://images.pexels.com/photos/3778876/pexels-photo-3778876.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
+              src="/images/profile.webp"
               alt="Arindam Tripathi"
               className="w-48 h-48 rounded-full mx-auto border-4 border-blue-400 shadow-2xl shadow-blue-500/25 hover:scale-105 transition-transform duration-300"
             />

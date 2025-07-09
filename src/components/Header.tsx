@@ -101,13 +101,13 @@ const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
+            <a href="https://github.com/ArindamTripathi619" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
+            <a href="https://www.linkedin.com/in/arindam-tripathi-962551349/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:arindam@example.com" className="text-gray-300 hover:text-white transition-colors duration-200">
+            <a href="mailto:devcrewx@gamil.com" className="text-gray-300 hover:text-white transition-colors duration-200">
               <Mail size={20} />
             </a>
           </div>

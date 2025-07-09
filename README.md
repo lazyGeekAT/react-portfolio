@@ -55,7 +55,7 @@ A modern, responsive portfolio website showcasing the work of Arindam Tripathi -
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/arindam/devcrewx-portfolio.git
+   git clone https://github.com/ArindamTripathi619/react-portfolio.git
    cd devcrewx-portfolio
    ```
 
@@ -210,10 +210,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Arindam Tripathi**
-- Portfolio: [https://devcrewx-portfolio.vercel.app](https://devcrewx-portfolio.vercel.app)
-- GitHub: [@arindam](https://github.com/arindam)
-- LinkedIn: [Arindam Tripathi](https://linkedin.com/in/arindam)
-- Email: arindam.tripathi@example.com
+- Portfolio: [portfolio.devcrewx.tech](https://portfolio.devcrewx.tech)
+- GitHub: [@ArindamTripathi619](https://github.com/ArindamTripathi619)
+- LinkedIn: [Arindam Tripathi](https://www.linkedin.com/in/arindam-tripathi-962551349/)
+- Email: devcrewx@gmail.com
 
 ## 🙏 Acknowledgments
 
