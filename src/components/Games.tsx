@@ -1,7 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Gamepad2, ExternalLink, Trophy } from 'lucide-react';
 
 const Games = () => {
+  const navigate = useNavigate();
+
   const games = [
     {
       title: 'Chess Master',
@@ -119,15 +122,13 @@ const Games = () => {
             <p className="text-gray-400 mb-6">
               More games coming soon! Follow my progress on GitHub.
             </p>
-            <a
-              href="https://github.com/arindam/games"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => navigate('/games')}
               className="inline-flex items-center gap-2 border-2 border-purple-500 text-purple-500 px-8 py-3 rounded-full font-semibold hover:bg-purple-500 hover:text-white transition-all duration-300 transform hover:scale-105"
             >
-              View Game Repository
+              View All Games
               <ExternalLink size={20} />
-            </a>
+            </button>
           </div>
         </div>
       </div>

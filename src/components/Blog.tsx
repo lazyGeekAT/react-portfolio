@@ -1,7 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 
 const Blog = () => {
+  const navigate = useNavigate();
+
   const blogPosts = [
     {
       title: 'Building Scalable React Applications',
@@ -125,15 +128,13 @@ const Blog = () => {
           </div>
           
           <div className="text-center mt-12">
-            <a
-              href="https://blog.example.com"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => navigate('/blogs')}
               className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105"
             >
               View All Posts
               <ArrowRight size={20} />
-            </a>
+            </button>
           </div>
         </div>
       </div>
