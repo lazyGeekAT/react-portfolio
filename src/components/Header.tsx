@@ -1,0 +1,87 @@
+import React, { useState, useEffect } from 'react';
+import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
+
+const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    setIsMenuOpen(false);
+  };
+
+  return (
+    <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+      scrolled ? 'bg-gray-900/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
+    }`}>
+      <div className="container mx-auto px-6 py-4">
+        <div className="flex items-center justify-between">
+          <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+            Arindam Tripathi
+          </div>
+          
+          <nav className="hidden md:flex space-x-8">
+            {['Home', 'About', 'Skills', 'Projects', 'Blog', 'Games', 'Contact'].map((item) => (
+              <button
+                key={item}
+                onClick={() => scrollToSection(item.toLowerCase())}
+                className="text-gray-300 hover:text-white transition-colors duration-200 relative group"
+              >
+                {item}
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-400 to-purple-600 transition-all duration-300 group-hover:w-full"></span>
+              </button>
+            ))}
+          </nav>
+
+          <div className="hidden md:flex items-center space-x-4">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
+              <Github size={20} />
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors duration-200">
+              <Linkedin size={20} />
+            </a>
+            <a href="mailto:arindam@example.com" className="text-gray-300 hover:text-white transition-colors duration-200">
+              <Mail size={20} />
+            </a>
+          </div>
+
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="md:hidden text-gray-300 hover:text-white transition-colors duration-200"
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+
+        {isMenuOpen && (
+          <div className="md:hidden mt-4 py-4 bg-gray-800/95 backdrop-blur-md rounded-lg">
+            <nav className="flex flex-col space-y-4">
+              {['Home', 'About', 'Skills', 'Projects', 'Blog', 'Games', 'Contact'].map((item) => (
+                <button
+                  key={item}
+                  onClick={() => scrollToSection(item.toLowerCase())}
+                  className="text-gray-300 hover:text-white transition-colors duration-200 text-left px-4"
+                >
+                  {item}
+                </button>
+              ))}
+            </nav>
+          </div>
+        )}
+      </div>
+    </header>
+  );
+};
+
+export default Header;
