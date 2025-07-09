@@ -8,13 +8,13 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-gray-400 flex items-center gap-2">
-              Made with <Heart className="text-red-500" size={16} /> and <Code className="text-blue-400" size={16} /> by Arindam Tripathi
+              Made with <Heart className="text-red-500" size={16} /> and <Code className="text-blue-400" size={16} /> by DevCrewX
             </p>
           </div>
           
           <div className="flex items-center gap-6">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Arindam Tripathi. All rights reserved.
+              © {new Date().getFullYear()} DevCrewX. All rights reserved.
             </p>
           </div>
         </div>
